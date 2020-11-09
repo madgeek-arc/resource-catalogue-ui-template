@@ -1,7 +1,13 @@
 export const environment = {
   production: true,
+  beta: false,
   FAQ_ENDPOINT: '/faq/api',
-  projectName: 'eInfraCentral',
   API_ENDPOINT: '/api',
-  hasUserConsent: false
+  API_TOKEN_ENDPOINT: '',
+  projectName: 'eInfraCentral',
+  projectMail: 'example@mail.eu',
+  serviceORresource: 'Service',
+  hasUserConsent: true,
+  privacyPolicyURL: '',
+  marketplaceBaseURL: ''
 };
